@@ -121,35 +121,6 @@ tralivali.push({
   correct: 2,
 })
 
-tralivali.push({
-  question: '.',
-  answers: answers,
-  correct: ,
-})
-
-tralivali.push({
-  question: '.',
-  answers: answers,
-  correct: ,
-})
-
-tralivali.push({
-  question: '.',
-  answers: answers,
-  correct: ,
-})
-
-tralivali.push({
-  question: '.',
-  answers: answers,
-  correct: ,
-})
-
-tralivali.push({
-  question: '.',
-  answers: answers,
-  correct: ,
-})
 
 
 var currentQuestionIndex = 0;
