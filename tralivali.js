@@ -61,6 +61,96 @@ tralivali.push({
   correct: 3,
 })
 
+tralivali.push({
+  question: '_______ vintern åker jag skidor.',
+  answers: answers,
+  correct: 1,
+})
+
+tralivali.push({
+  question: 'Jag vare jätteduktig _______ styrketräning.',
+  answers: answers,
+  correct: 1,
+})
+
+tralivali.push({
+  question: 'Om du vill gå ner _______ vikt bör du gå på gympa.',
+  answers: answers,
+  correct: 2,
+})
+
+tralivali.push({
+  question: 'Man kan försöka skära ner på fettet _______ maten ock röra på sig mer.',
+  answers: answers,
+  correct: 2,
+})
+
+tralivali.push({
+  question: 'På morgonen är hans barn så långsamma. Han säger: Skynda _______! , men de lyssnar inte.',
+  answers: answers,
+  correct: 1,
+})
+
+tralivali.push({
+  question: 'Jag tycker inte att gå _______ simhallen.',
+  answers: answers,
+  correct: 2,
+})
+
+tralivali.push({
+  question: 'Jag har blivit kär _______ min bäst väns flickvän.',
+  answers: answers,
+  correct: 2,
+})
+
+tralivali.push({
+  question: 'Bry dig inte _______ att han luktar.',
+  answers: answers,
+  correct: 3,
+})
+
+tralivali.push({
+  question: 'Har du gott _______ pengar?',
+  answers: answers,
+  correct: 3,
+})
+
+tralivali.push({
+  question: 'Min kompis och jag har känt varandra _______ mer än tjugo år.',
+  answers: answers,
+  correct: 2,
+})
+
+tralivali.push({
+  question: '.',
+  answers: answers,
+  correct: ,
+})
+
+tralivali.push({
+  question: '.',
+  answers: answers,
+  correct: ,
+})
+
+tralivali.push({
+  question: '.',
+  answers: answers,
+  correct: ,
+})
+
+tralivali.push({
+  question: '.',
+  answers: answers,
+  correct: ,
+})
+
+tralivali.push({
+  question: '.',
+  answers: answers,
+  correct: ,
+})
+
 
 var currentQuestionIndex = 0;
 
