@@ -44,7 +44,7 @@ tralivali.push({
 })
 
 tralivali.push({
-  question: 'Eva rider. Hon rider trå gånger _______ veckan på en ridskola.',
+  question: 'Eva rider. Hon rider två gånger _______ veckan på en ridskola.',
   answers: answers,
   correct: 2,
 })
@@ -121,18 +121,39 @@ tralivali.push({
   correct: 2,
 })
 
-
-
 var currentQuestionIndex = 0;
 
-$('button').on('click', function (event) {
 
-})
+var correctAnswer = 0;// НЕПРАВИЛЬНАЯ ЛОГИКА ПРИСВОЕНИЯ ЧИСЛА
+var result = {
+  correct: 0,
+  incorrect: 0
+}
+
+// текущая_книга = 0
+// книги = [1,2,3]
+
+// фукнция ЧИТАТЬ_КНИГУ {
+//   если книга последная
+//     обунули счётчик
+//   иначе
+//     читать книги[текущая_книга]
+// }
+
 
 function showQuestion () {
+
+  if(currentQuestionIndex === tralivali.length){
+    currentQuestionIndex = 0;
+   // alert("Правильных ответов " + correctAnswer + "Неправильных ответов " + (tralivali.length - correctAnswer));
+
+  } 
+
   var questionToShow = selectQuestion();
   addQuestionToSite(questionToShow);
 }
+
+  
 
 function selectQuestion () {
   return tralivali[currentQuestionIndex];
@@ -147,15 +168,17 @@ function addQuestionToSite (question) {
 
 }
 
+
 function nextQuestion (correct, index) {
   if (correct == index) {
-    alert("WELL DONE! COOL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+    alert("WELL DONE! COOL!!!!!!!!!!!!!!!!!!!!");
+    correctAnswer++; //
 
-    //clearAnswersHTML();
-    //currentQuestionIndex++;
-    //showQuestion();
+    // clearAnswersHTML();
+    // currentQuestionIndex++;
+    // showQuestion();
   } else {
-    alert("incorrect")
+    alert("Incorrect((((((((((( Try again");
   }
 }
 

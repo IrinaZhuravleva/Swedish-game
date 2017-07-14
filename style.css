@@ -22,45 +22,49 @@ h3 {
   font-family: PTSans, Arial, sans-serif;
 }
 
-.question {
-  display: block;
+.question, 
+button, 
+.nextButton,
+.number {
+  border: 5px solid black;
   color: white;
   background-color: black;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.question {
+  display: block;
+  width: 800px;
+  min-height: 80px;
   font-size: 24px;
   text-align: center;
-  border: 5px solid black;
-  border-radius: 15px;
-  margin: 120px 420px 50px;
+  /* vertical-align: middle; */
+  margin: 0 auto;
+  margin-top: 120px;
   padding: 10px;
 }
 
 .answers {
   display: block;
-  color: red;
-  font-size: 24px;
+  margin-top: 80px;
   text-align: center;
+
+
 /*   margin: 120px 420px; */
 /*   padding: 50px 50px; */
 }
 
 button {
-  color: white;
-  background-color: black;
   font-size: 24px;
   text-align: center;
-  border: 5px solid black;
-  border-radius: 15px;
   padding: 10px;
 }
 
 .nextButton {
-  color: white;
-  background-color: black;
   font-size: 24px;
   text-align: center;
-  border: 5px solid black;
-  border-radius: 15px;
   padding: 10px;
-  margin-top: 170px;
+  margin-top: 80px;
   margin-left: 1100px;
 }
